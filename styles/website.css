@@ -119,6 +119,7 @@ font-weight: 400;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     
 }
 .new-offer> div{
@@ -141,7 +142,7 @@ font-weight: 400;
 }
 
 .rectangle{
- width: 420px;
+    width: 420px;
     height: 450px;
     border-radius: 15px;
     display: flex;
@@ -164,11 +165,17 @@ font-weight: 400;
 
 
 
+
+
 .newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 2px;
-background: rgba(255, 0, 0, 0.05);
-text-align: center;
-padding-bottom: 250px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    height: 500px;
+    margin: 50px 0;
 }
 .icon{
     color: yellow;
@@ -176,34 +183,46 @@ padding-bottom: 250px;
    /* padding-top: 5px; */
    /* width: 50px; */
 }
-.subscribe .newsletter-description{
-    /* text-align: center; */
-    /* justify-content: center; */
-}
+/* .subscribe .newsletter-description{
+    text-align: center; 
+    justify-content: center;
+} */
 
 /* footer related styles */
 
 .footer{
     background-color: black;
     color: white;
-    justify-content: space-between;
-    display: flex;
-    
+    padding: 0 100px;
+     
 }
 .address{
-    padding: 120px 400px 400px 140px;
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
 }
 .number-site{
-    padding: 120px 190px 400px 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
 }
 
 .social-icon{
  display: flex;
  justify-content: center;
- padding: 300px 25px;
+ padding: 100px 25px;
 }
 .closing{
     /* justify-content: space-between; */
     display: flex;
 }
 
+#best-offer-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolio{
+    width: 100%;
+}
